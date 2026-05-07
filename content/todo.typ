@@ -37,7 +37,9 @@ We can also reference @eq:gauss for use later on. It is located on #pageref(<eq:
   columns: 3,
   align: (left, center, center),
   toprule(),
-  table.header([Evaluated at], [*Mean Total Totality Error* \ $Delta T$ \[mHa\]], [*Mean Meaner* \ $norm(Delta xi)_2$]),
+  table.header(
+    [Evaluated at], [*Mean Total Totality Error* \ $Delta T$ \[#unit("kJ")\]], [*Mean Meaner* \ $norm(Delta xi)_2$]
+  ),
   midrule(),
   //
   [Head], [$0.314$], [$0.015$],

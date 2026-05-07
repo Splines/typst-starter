@@ -1,3 +1,3 @@
-#lorem(100)
+Writing a Thesis can be quite challenging since you have to combine many skills: those of your research field to do the actual research, then those of an author to write the thesis, and finally those of a typographer / graphics designer to make it look good. This project helps you with the last part by kickstarting your Typst document.
 
-#lorem(70)
+Usually with #link("https://typst.app/universe/search/?kind=templates")[Templates] on the Typst Universe, you use them in your document, while losing control over every aspect of the design. Furthermore, the organization of files and the initial "boilerplate" is on you to set up. Here, we instead provide a whole repository as "template", which lets you start writing right away. And all stylistic choices remain in your control as the underlying Typst template is defined in the repo as well inside the folder  `template/`, so you can freely modify every aspect of the design and layout should you wish to do so.

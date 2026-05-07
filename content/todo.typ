@@ -13,6 +13,10 @@
 - guide when coming from LaTeX
 - good luck & have fun
 
+== Setup
+
+- Tinymist Typst Language Server
+
 == Building Blocks
 
 Here is an overview of sum of the fundamental building blocks of your thesis. Use inline math to write formulas like $N/(N+1)$, $E = colorMath(m) colorMath(c, color: #blue)^2$ or $qty("5.25e-3", "eV")$. Add another space and you get a display formula like Gauss' formula for the sum of the first $n$ integers:

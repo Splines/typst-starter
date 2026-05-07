@@ -16,10 +16,20 @@
 == Setup
 
 - Tinymist Typst Language Server
+- commit frequently
+- Typst skill
+
+== Structure
+
+- template
+- main
+- content
+- assets
+- literature
 
 == Building Blocks
 
-Here is an overview of sum of the fundamental building blocks of your thesis. Use inline math to write formulas like $N/(N+1)$, $E = colorMath(m) colorMath(c, color: #blue)^2$ or $qty("5.25e-3", "eV")$. Add another space and you get a display formula like Gauss' formula for the sum of the first $n$ integers:
+Here is an overview of sum of the fundamental building blocks of your thesis. Use inline math to write formulas like $cal(A)_"ext" [Q]$, $N/(N+1)$, $E = colorMath(m) colorMath(c, color: #blue)^2$ or $qty("5.25e-3", "eV")$. Add another space and you get a display formula like Gauss' formula for the sum of the first $n$ integers:
 $
   sum_(k=1)^n k = (n (n+1)) / 2
 $<eq:gauss>

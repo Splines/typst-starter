@@ -1,0 +1,16 @@
+cite:typst:
+  type: article
+  title: 'Typst: A Modern Typesetting Engine for Science'
+  author:
+  - Voynov, Andrey
+  - Corbi, Alberto
+  - López-Oliver, Pau
+  - Gil, David
+  date: 2026-02
+  page-range: 1-13
+  url: https://www.ijimai.org/index.php/ijimai/article/view/2269
+  serial-number:
+    doi: 10.9781/ijimai.2026.2269
+  parent:
+    type: periodical
+    title: International Journal of Interactive Multimedia and Artificial Intelligence

@@ -1,3 +1,6 @@
+# Call these keys however you like, but I usually like to go for prefixes
+# e.g. "eq:gauss" for an equation, "fig:cat" for a figure, "cite:knuth"
+# for a citation, etc.
 cite:typst:
   type: article
   title: 'Typst: A Modern Typesetting Engine for Science'
@@ -14,3 +17,12 @@ cite:typst:
   parent:
     type: periodical
     title: International Journal of Interactive Multimedia and Artificial Intelligence
+
+cite:butterfly:
+  type: web
+  title: '{SVG} {>} clipart nature patterned animal - Free {SVG} Image & Icon.'
+  url:
+    value: https://svgsilh.com/image/1437245.html
+    date: 2026-05-07
+  abstract: clipart nature patterned animal - Free {SVG} Image & Icon.
+

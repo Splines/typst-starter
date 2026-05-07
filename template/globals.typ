@@ -13,7 +13,7 @@
 #let chapter-summary-state = state("thesis-chapter-summary", none)
 #let chapter-summary(text) = chapter-summary-state.update(text)
 
-#let show-todos = false
+#let show-todos = true
 #let _dashy_todo = todo
 #let todo(..args) = if show-todos { _dashy_todo(..args) } else { [] }
 

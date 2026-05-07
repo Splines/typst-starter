@@ -1,7 +1,5 @@
 #import "template/template.typ": *
 
-// print: https://www.znf.uni-heidelberg.de/de/services/kompletter-service-bei-printmedien/service-fuer-studierende
-
 #show: thesis.with(
   title: "Typst-Starter: \nLet's get started with that Thesis",
   author: (

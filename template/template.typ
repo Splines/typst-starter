@@ -23,7 +23,7 @@
   organization: "Organization of Organizations",
   // License info
   license-name: "CC BY-SA 4.0",
-  license-logo: image("assets/by-sa.svg", width: 65pt),
+  license-logo: image("assets/cc-by-sa.svg", width: 65pt),
   license-link: "https://creativecommons.org/licenses/by-sa/4.0/",
   body,
 ) = {

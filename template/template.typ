@@ -394,7 +394,7 @@
 
     The logo/seal is property of #university and exempt from this license. Its usage in the background of this Thesis' title page was generously granted by #todo[finish]
 
-    This thesis was written using #strong(link("http://github.com/typst/typst/")[Typst]), a modern typesetting system with an open-source compiler.
+    This thesis was written using #strong(link("http://github.com/typst/typst/")[Typst]), a modern typesetting system with an open-source compiler. The initial template comes from #link("https://github.com/splines/typst-starter")[Typst-Starter].
 
     #v(1.5em)
     #line(length: 100%, stroke: 0.5pt)

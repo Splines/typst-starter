@@ -14,11 +14,11 @@ See how it looks like in this [**preview PDF**](https://github.com/user-attachme
 
 1. Click on `Use this template` on GitHub, then `Create a new repository` for yourself based on it.
 
-2. Then, compile & preview the document. I recommend the great [Tinymist Typst language server](https://github.com/Myriad-Dreamin/tinymist), which (among others) is available for VSCode via the [Tinymist Typst Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist). Some recommended extensions should be proposed automatically as I've set them up in `extensions.json`.
-
     <img width="180px" src="https://github.com/user-attachments/assets/45bee226-a71e-4b0e-8fef-b6618cc282f2" />
 
-3. Open the `thesis.typ` file. You should see a `Preview` button (codelens) at the very top. Click on it and make sure the document compiles without any errors.
+2. **Language Server**. I recommend the great [Tinymist Typst language server](https://github.com/Myriad-Dreamin/tinymist), which (among others) is available for VSCode via the [Tinymist Typst Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist). Some recommended extensions should be proposed automatically as I've set them up in `extensions.json`.
+
+3. **Compile & Preview**. Open the `thesis.typ` file. You should see a `Preview` button (codelens) at the very top. Click on it and make sure the document compiles without any errors.
 
     <img width="600px" src="https://github.com/user-attachments/assets/15f54219-c275-4b0c-907a-f38e8b73a2e9" />
 

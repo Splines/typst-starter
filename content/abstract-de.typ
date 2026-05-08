@@ -1,3 +1,3 @@
-#lorem(110)
+Eine Thesis zu schreiben kann ziemlich herausfordernd sein, da viele Fähigkeiten gefragt sind: die deines Forschungsfeldes, um die eigentliche Forschung zu betreiben, dann die eines Autors, um die Thesis zu schreiben, und schließlich die eines Typografen / Grafikdesigners, um sie gut aussehen zu lassen. Dieses Projekt unterstützt dich beim letzten Schritt, indem es dir den Einstieg in dein Typst-Dokument erleichtert.
 
-#lorem(70)
+Normalerweise verwendet man im Typst-Universum #link("https://typst.app/universe/search/?kind=templates")[Templates] in seinem Dokument, verliert dabei jedoch die Kontrolle über das Design. Außerdem musst du dich selbst um die Organisation der Dateien kümmern. Hier stellen wir dir stattdessen ein ganzes Repository als "Vorlage" zur Verfügung, mit der du sofort mit dem Schreiben beginnen kannst. Wir trennen weiterhin Inhalt von Aussehen, und alle stilistischen Entscheidungen liegen weiterhin in deiner Hand.

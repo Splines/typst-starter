@@ -27,7 +27,7 @@
 
 // Content
 #show: arabic-numbering.with(reset: true, alternate: true)
-#include "content/todo.typ"
+#include "content/intro.typ"
 
 // Bibliography
 #show bibliography: set heading(numbering: "1")

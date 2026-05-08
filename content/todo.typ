@@ -5,7 +5,10 @@
 ]
 = TODO
 
+// a comment
+
 == Welcome
+
 
 - typst docs & getting started guide
 - Typst Universe
@@ -43,8 +46,8 @@ where $f$ is the derivative of $F$.
 We can also reference @eq:gauss for use later on. It is located on #pageref(<eq:gauss>). @fig:butterfly shows a butterfly, and @tab:temperatures presents the most important results.
 
 #figure(
-  image("assets/butterfly.svg", width: 30%),
-  caption: [A butterfly. Taken from @cite:butterfly. Prefer vector graphics over raster images whenever possible as they scale without loss of quality (you can zoom in as much as you like and it will still look crisp). And their file size is typically a lot smaller than raster images],
+  image("../assets/butterfly.svg", width: 30%),
+  caption: [A butterfly. Taken from @cite:butterfly. Prefer vector graphics over raster images whenever possible as they scale without loss of quality (you can zoom in as much as you like and it will still look crisp). And their file size is typically a lot smaller than raster images.],
 ) <fig:butterfly>
 
 #let temperature_results = table(

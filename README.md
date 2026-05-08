@@ -12,14 +12,14 @@ See how it looks like in this [**preview PDF**](https://github.com/user-attachme
 
 ## Get started
 
-1. Click on `Use this template` on GitHub, then `Create a new repository` for yourself based on it.
+1. **Create new repo**. Click on `Use this template` on GitHub, then `Create a new repository` for yourself based on it.
 
     <img width="180px" src="https://github.com/user-attachments/assets/45bee226-a71e-4b0e-8fef-b6618cc282f2" />
 
-2. **Language Server**. I recommend the great [Tinymist Typst language server](https://github.com/Myriad-Dreamin/tinymist), which (among others) is available for VSCode via the [Tinymist Typst Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist). Some recommended extensions should be proposed automatically as I've set them up in `extensions.json`.
+2. **Language Server**. I recommend the great [Tinymist Typst language server](https://github.com/Myriad-Dreamin/tinymist), which (among others) is available for VSCode via the [**Tinymist Typst Extension**](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist). Some recommended extensions should be proposed automatically in VSCode as I've set them up in `extensions.json`.
 
 3. **Compile & Preview**. Open the `thesis.typ` file. You should see a `Preview` button (codelens) at the very top. Click on it and make sure the document compiles without any errors.
 
     <img width="600px" src="https://github.com/user-attachments/assets/15f54219-c275-4b0c-907a-f38e8b73a2e9" />
 
-4. Finally, follow the hints in the document itself (see its Intro chapter). Click anywhere in the preview pane to jump to the respective code.
+4. **Enjoy**. Finally, follow the hints in the document itself (see its Intro chapter). Click anywhere in the preview pane to jump to the respective code.

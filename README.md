@@ -1,4 +1,4 @@
-# Typst-Starter
+# Typst-Thesis-Starter
 
 Writing a Thesis can be quite challenging since you have to combine many skills: those of your research field to do the actual research, then those of an author to write the thesis, and finally design knowledge to make it look good. This project helps you with the last part by kick-starting your Typst document.
 

@@ -27,9 +27,7 @@
   license-link: "https://creativecommons.org/licenses/by-sa/4.0/",
   body,
 ) = {
-  //////////////////////////////////////////////////////////////////////////////
-  // Basic document rules
-  //////////////////////////////////////////////////////////////////////////////
+  //// Basics /////////////////////////////////////////////////////////////
   set document(title: title, author: author.name)
   set page(
     paper: "a4",
@@ -50,11 +48,8 @@
     },
   )
 
-  //////////////////////////////////////////////////////////////////////////////
-  // Style
-  //////////////////////////////////////////////////////////////////////////////
-  // Text setup
-  set text(size: 12pt)
+  //// Style //////////////////////////////////////////////////////////////
+  set text(lang: "en", size: 12pt)
   set par(
     leading: 0.75em,
     spacing: 1.5em,
@@ -73,34 +68,6 @@
     align(box(align(it, left)), center)
   }
 
-  // show figure.where(
-  //   kind: table,
-  // ): set figure.caption(position: top)
-
-  // https://forum.typst.app/t/how-can-i-make-a-figure-caption-left-aligned-or-centered-matching-the-alignment-to-the-number-of-lines-in-the-caption/7306/5?u=splines
-  // show figure.caption: it => block({
-  //   set align(left)
-  //   strong({
-  //     it.supplement
-  //     [ ]
-  //     context it.counter.display(it.numbering)
-  //     it.separator
-  //   })
-  //   [ ]
-  //   it.body
-  // })
-
-  set text(lang: "en")
-
-  show ref: it => {
-    if it.element != none and it.element.func() == math.equation {
-      // custom reference for equations
-      link(it.target)[(#it)]
-    } else {
-      it
-    }
-  }
-
   show link: it => {
     if type(it.dest) != str {
       // set text(color)
@@ -117,16 +84,22 @@
 
   show: equate.with(breakable: true, sub-numbering: false)
   // https://github.com/typst/typst/discussions/1917#discussioncomment-6703472
+  // https://github.com/EpicEricEE/typst-equate/issues/11#issuecomment-2633709934
   set math.equation(
     numbering: "(1.1)",
     supplement: none,
   )
-  // https://github.com/EpicEricEE/typst-equate/issues/11#issuecomment-2633709934
-  // set math.equation(
-  //   supplement: none,
-  //   numbering: (..nums) => numbering("(1.1)", ..nums),
-  // )
 
+  show ref: it => {
+    if it.element != none and it.element.func() == math.equation {
+      // custom reference for equations
+      link(it.target)[(#it)]
+    } else {
+      it
+    }
+  }
+
+  // Use display mode for inline math
   // https://forum.typst.app/t/how-can-i-use-display-mode-for-in-line-math/1179/9
   // #show math.equation.where(block: false): it => math.display(it)
 
@@ -146,6 +119,7 @@
       it
     } else {
       // Ensure each chapter starts on a right-hand page
+      // (haven't found a satisfying solution for this yet)
       // https://github.com/typst/typst/discussions/4337
       // https://github.com/typst/typst/discussions/3122#discussioncomment-13936086
       // pagebreak(to: "even")
@@ -156,17 +130,7 @@
         numbering: none,
         margin: 0cm,
       )[
-        // Left accent bar like on the cover page.
-        // #place(
-        //   left + top,
-        //   rect(
-        //     width: 1.2cm,
-        //     height: 100%,
-        //     fill: color,
-        //   ),
-        // )
-
-        // Heidelberg logo in the chapter page background.
+        // Logo in the chapter page background
         #place(
           right + bottom,
           dx: 20%,
@@ -184,7 +148,7 @@
 
             line(length: 100%, stroke: (paint: color-main, thickness: 2pt, cap: "round"))
 
-            // Chapter number and title on one line.
+            // Chapter number and title on one line
             grid(
               columns: (auto, 1fr),
               column-gutter: 1.2cm,
@@ -446,6 +410,7 @@
 
 
   //// Body ///////////////////////////////////////////////////////////////
-  pagebreak(to: "odd")
+  // pagebreak(to: "odd")
+  pagebreak()
   body
 }

@@ -4,7 +4,11 @@ Writing a Thesis can be quite challenging since you have to combine many skills:
 
 [Templates](https://typst.app/universe/search/?kind=templates) on the Typst Universe come ready-made, but limit design flexibility. They also require you to organize your project structure independently. Instead, we provide a complete repository scaffold that lets you begin writing immediately, while maintaining full control over styling and layout.
 
-[This PDF](TODO) offers you a first preview. I've extracted this template repository from my own thesis. See also my [blog post](https://splines.me/blog/2026/bachelor-thesis-typst).
+See how it looks like in this [**preview PDF**](https://github.com/user-attachments/files/27522519/thesis.pdf). I've extracted this template repository from my own thesis. See also my [blog post](https://splines.me/blog/2026/bachelor-thesis-typst). You remain in full control over any styling/layout.
+
+<a href="https://github.com/user-attachments/files/27522519/thesis.pdf">
+  <img width="300px" src="https://github.com/user-attachments/assets/de054a65-0729-4f2f-b9f4-a7421e75ae51" />
+</a>
 
 ## Get started
 

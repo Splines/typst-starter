@@ -12,7 +12,7 @@ See how it looks like in this [**preview PDF**](https://github.com/user-attachme
 
 ## Get started
 
-1. **Create new repo**. Click on `Use this template` on GitHub, then `Create a new repository` for yourself based on it.
+1. **Create new repo**. Click on `Use this template` on GitHub, then `Create a new repository`.
 
     <img width="180px" src="https://github.com/user-attachments/assets/45bee226-a71e-4b0e-8fef-b6618cc282f2" />
 

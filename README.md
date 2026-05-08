@@ -4,18 +4,18 @@ Writing a Thesis can be quite challenging since you have to combine many skills:
 
 [Templates](https://typst.app/universe/search/?kind=templates) on the Typst Universe come ready-made, but limit design flexibility. They also require you to organize your project structure independently. Instead, we provide a complete repository scaffold that lets you begin writing immediately, while maintaining full control over styling and layout.
 
-## Preview
-
-[This PDF](TODO) offers you a first preview. I extracted this Typst-Starter template repository from my own thesis, see my [blog post](https://splines.me/blog/2026/bachelor-thesis-typst).
+[This PDF](TODO) offers you a first preview. I've extracted this template repository from my own thesis. See also my [blog post](https://splines.me/blog/2026/bachelor-thesis-typst).
 
 ## Get started
 
-To get started, click on `Use this template` on GitHub, then `Create a new repository` for yourself based on it.
+1. Click on `Use this template` on GitHub, then `Create a new repository` for yourself based on it.
 
-Then, compile & preview your document. I recommend the great [Tinymist Typst language server](https://github.com/Myriad-Dreamin/tinymist), which (among others) is available for VSCode via the [Tinymist Typst Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist). Some recommended extensions should be proposed automatically as I've set them up in `extensions.json`.
+2. Then, compile & preview the document. I recommend the great [Tinymist Typst language server](https://github.com/Myriad-Dreamin/tinymist), which (among others) is available for VSCode via the [Tinymist Typst Extension](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist). Some recommended extensions should be proposed automatically as I've set them up in `extensions.json`.
 
-Then, open the `main.typ` file. You should see a `Preview` button (codelens). Click on it and make sure the document compiles successfully.
+    <img width="180px" src="https://github.com/user-attachments/assets/45bee226-a71e-4b0e-8fef-b6618cc282f2" />
 
-<img width="100%" src="https://github.com/user-attachments/assets/a5d4fa46-4df0-4fd7-aa82-c99989d65ef8" />
+3. Open the `thesis.typ` file. You should see a `Preview` button (codelens) at the very top. Click on it and make sure the document compiles without any errors.
 
-Great, now follow the hints in the document itself (see its Intro chapter).
+    <img width="600px" src="https://github.com/user-attachments/assets/15f54219-c275-4b0c-907a-f38e8b73a2e9" />
+
+4. Finally, follow the hints in the document itself (see its Intro chapter). Click anywhere in the preview pane to jump to the respective code.
